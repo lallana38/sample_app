@@ -1,0 +1,6 @@
+<%= form_for @user, url: "/users/#{@user.id}", html: {method: :patch} do |f| %>
+  <p>投稿</p>
+  <p>お名前：<%= f.text_field :name %></p>
+  <p>年齢：<%= f.text_field :age %></p>
+  <input type="submit" value="更新">
+<% end %>
