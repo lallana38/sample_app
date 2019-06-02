@@ -15,7 +15,13 @@ class UsersController < ApplicationController
 
   # 詳細情報を表示するためのアクション
   def show
-    @user = User.find(params[:id])
+    # @user = User.find(params[:id])
+
+    # # 購入したユーザーのidに紐付いて商品が検索される
+    # # user_idカラムがcurrent_user.idと同じものを検索する
+    # @items = Item.where(user_id: current_user.id)
+    @user = User.find(current_user.id)
+
   end
 
   # 編集画面に対応するアクション

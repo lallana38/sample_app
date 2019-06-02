@@ -1,0 +1,8 @@
+<%= form_for @item, method: :post do |f| %>
+  <!-- 購入したい商品のデータを入力したら、ユーザーに紐付いてデータが登録される  -->
+  <h1>ご購入の商品情報を入力</h1>
+  <!-- text_fieldは文章を書いてそのデータを登録できることができる -->
+  <p>商品名：<%= f.text_field :name %></p>
+  <p>値段：<%= f.text_field :price %></p>
+  <input type="submit", value="送信">
+<% end %>
