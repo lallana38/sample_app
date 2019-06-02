@@ -6,6 +6,5 @@
 2. LV16: resourcesを使ったCRUDアプリの動画を参考に、resourcesの処理に変更しました。
    commit名: add crud with resources
 
-
 Ruby version  2.5.1
 Rails version 5.2.3
