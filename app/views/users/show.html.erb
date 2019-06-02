@@ -1,3 +1,7 @@
 <h1>詳細情報</h1>
 <p><%= @user.name %></p>
 <p><%= @user.age %></p>
+
+<% @user.items.each do |item| %>
+  <p><%= item.name %>:<%= item.price %></p>
+<% end %>

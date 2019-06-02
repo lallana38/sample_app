@@ -7,6 +7,8 @@
    commit名: add crud with resources
 3. LV19: Rakeタスクの実装の動画を参考にCSVインポートの処理を追加しました。
    commit名： add rake task
+4. LV20: Deviseを使ったログイン機能の実装の動画を参考にログイン機能を追加しました。
+   commit名： add login with devise
 
 Ruby version  2.5.1
 Rails version 5.2.3
